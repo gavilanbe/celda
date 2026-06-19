@@ -1,0 +1,273 @@
+{
+  "image": "hero-spritesheet.png",
+  "frameSize": {
+    "width": 128,
+    "height": 128
+  },
+  "columns": 4,
+  "origin": {
+    "x": 64,
+    "y": 122
+  },
+  "hitbox": {
+    "x": 46,
+    "y": 91,
+    "width": 36,
+    "height": 28
+  },
+  "recommendedGameScale": {
+    "nativeHeroFrame": "128x128",
+    "tileSize": 64,
+    "viewport": "640x360 logical pixels or larger",
+    "rendering": "nearest-neighbor / pixelated"
+  },
+  "palette": {
+    "K": {
+      "name": "ink",
+      "hex": "#17211b"
+    },
+    "D": {
+      "name": "shadow",
+      "hex": "#4a5744"
+    },
+    "M": {
+      "name": "cloth",
+      "hex": "#8f9a78"
+    },
+    "L": {
+      "name": "light",
+      "hex": "#eff1cf"
+    }
+  },
+  "frames": [
+    {
+      "name": "idle_down",
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "durationMs": 180
+    },
+    {
+      "name": "walk_down_1",
+      "x": 128,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "durationMs": 140
+    },
+    {
+      "name": "walk_down_2",
+      "x": 256,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "durationMs": 140
+    },
+    {
+      "name": "idle_up",
+      "x": 384,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "durationMs": 180
+    },
+    {
+      "name": "idle_right",
+      "x": 0,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "durationMs": 180
+    },
+    {
+      "name": "walk_right_1",
+      "x": 128,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "durationMs": 140
+    },
+    {
+      "name": "walk_right_2",
+      "x": 256,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "durationMs": 140
+    },
+    {
+      "name": "idle_left",
+      "x": 384,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "durationMs": 180
+    },
+    {
+      "name": "walk_left_1",
+      "x": 0,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "durationMs": 140
+    },
+    {
+      "name": "walk_left_2",
+      "x": 128,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "durationMs": 140
+    },
+    {
+      "name": "attack_right",
+      "x": 256,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "durationMs": 95
+    },
+    {
+      "name": "attack_left",
+      "x": 384,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "durationMs": 95
+    },
+    {
+      "name": "hurt_down",
+      "x": 0,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "durationMs": 120
+    },
+    {
+      "name": "idle_down_alt1",
+      "x": 128,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "durationMs": 180
+    },
+    {
+      "name": "idle_up_alt1",
+      "x": 256,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "durationMs": 180
+    },
+    {
+      "name": "idle_right_alt1",
+      "x": 384,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "durationMs": 180
+    }
+  ],
+  "animations": {
+    "idle_down": [
+      {
+        "frame": "idle_down",
+        "durationMs": 180
+      }
+    ],
+    "idle_up": [
+      {
+        "frame": "idle_up",
+        "durationMs": 180
+      }
+    ],
+    "idle_right": [
+      {
+        "frame": "idle_right",
+        "durationMs": 180
+      }
+    ],
+    "idle_left": [
+      {
+        "frame": "idle_left",
+        "durationMs": 180
+      }
+    ],
+    "walk_down": [
+      {
+        "frame": "walk_down_1",
+        "durationMs": 140
+      },
+      {
+        "frame": "idle_down",
+        "durationMs": 140
+      },
+      {
+        "frame": "walk_down_2",
+        "durationMs": 140
+      },
+      {
+        "frame": "idle_down",
+        "durationMs": 140
+      }
+    ],
+    "walk_up": [
+      {
+        "frame": "idle_up",
+        "durationMs": 150
+      },
+      {
+        "frame": "idle_up_alt1",
+        "durationMs": 150
+      }
+    ],
+    "walk_right": [
+      {
+        "frame": "walk_right_1",
+        "durationMs": 140
+      },
+      {
+        "frame": "walk_right_2",
+        "durationMs": 140
+      }
+    ],
+    "walk_left": [
+      {
+        "frame": "walk_left_1",
+        "durationMs": 140
+      },
+      {
+        "frame": "walk_left_2",
+        "durationMs": 140
+      }
+    ],
+    "attack_right": [
+      {
+        "frame": "attack_right",
+        "durationMs": 95
+      }
+    ],
+    "attack_left": [
+      {
+        "frame": "attack_left",
+        "durationMs": 95
+      }
+    ],
+    "hurt_down": [
+      {
+        "frame": "hurt_down",
+        "durationMs": 120
+      }
+    ]
+  },
+  "source": {
+    "concept": "../reference/hero-concept.png",
+    "method": "Cropped from the imagegen concept, background-masked, reduced to 4 colors, and framed at 128x128."
+  },
+  "notes": [
+    "This version intentionally raises the game's sprite resolution to preserve the character from the concept.",
+    "The pose set is a faithful extracted prototype, not a clean hand-authored animation sheet yet.",
+    "For production, regenerate or redraw clean pose-specific frames at this same 128x128 target."
+  ]
+}

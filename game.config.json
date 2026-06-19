@@ -1,0 +1,19 @@
+{
+  "resolution": {
+    "logicalWidth": 640,
+    "logicalHeight": 360,
+    "pixelScale": 2,
+    "rendering": "pixelated"
+  },
+  "world": {
+    "tileSize": 64
+  },
+  "hero": {
+    "spriteSheet": "assets/hero/hero-spritesheet.png",
+    "metadata": "assets/hero/hero.json",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "originX": 64,
+    "originY": 122
+  }
+}
